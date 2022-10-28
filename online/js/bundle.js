@@ -778,7 +778,7 @@ module.exports = bundle;
  * @param {$RefParserOptions} options
  */
 function bundle (parser, options) {
-  // console.log('Bundling $ref pointers in %s', parser.$refs._root$Ref.path);
+  console.log('Bundling $ref pointers in %s', parser.$refs._root$Ref.path);
 
   // Build an inventory of all $ref pointers in the JSON Schema
   let inventory = [];
